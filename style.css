@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inclusive+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300&display=swap');
+:root {
+    --cor-principal : #fffbf5;
+    --cor-secundaria : #fdeedd;
+    --cor-ternaria : #f5bb7e;
+    --cor-botaored : #ef4b3c;
+    --cor-botaoblue : #b8e4f4;
+    --cor-fundoyellow : #ffd33e;
+
+    --texto-paragrafo : 'Poppins';
+    --texto-principal : 'Bebas Neue', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: var(--texto-principal);
+
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    font-size: 30px;
+}
+
+
+header nav {
+    text-align: center;
+    margin-top: 25px;
+    gap: 20px;   
+}
+
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 20px;
+    padding-right: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+
+.conteiner-principal {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: var(--cor-principal);
+}
+
+
+.conteiner-principal h1 {
+    text-align: left;
+    font-size: 120px;
+    font-weight: 400;
+    position: absolute;
+    width: 40%;
+    left: 0;
+    margin-left: 3%;
+    line-height: 115px;
+    color: black;
+    top: 0;
+    margin-top: 10%; 
+}
+
+
+.conteiner-principal p {
+    text-align: left;
+    font-size: 20px;
+    position: absolute;
+    width: 30%;
+    margin-top: 300px;
+    left: 0;
+    margin-left: 3%;
+    color: black;
+    top: 0;
+    margin-top: 24%;
+    font-family: var(--texto-paragrafo);
+    font-weight: 500;
+}
+
+
+.conteiner-principal .botao {
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 20%;
+    text-align: left;
+    margin-left: 3%;
+}
