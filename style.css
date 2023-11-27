@@ -53,8 +53,8 @@ header nav a {
     width: 100%;
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: left;
+    
+    justify-content: center;
     background-color: var(--cor-principal);
 }
 
@@ -66,7 +66,7 @@ header nav a {
     position: absolute;
     width: 40%;
     left: 0;
-    margin-left: 3%;
+    margin-left: 10%;
     line-height: 115px;
     color: black;
     top: 0;
@@ -81,7 +81,7 @@ header nav a {
     width: 30%;
     margin-top: 300px;
     left: 0;
-    margin-left: 3%;
+    margin-left: 10%;
     color: black;
     top: 0;
     margin-top: 24%;
@@ -97,5 +97,76 @@ header nav a {
     left: 0;
     margin-bottom: 20%;
     text-align: left;
-    margin-left: 3%;
+    margin-left: 10%;
+}
+
+
+.conteiner-principal .botao .btn-comprar {
+    background-color: var(--cor-botaored);
+    color:var(--cor-principal);
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+
+.conteiner-principal .botao .btn-preco {
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+
+.conteiner-principal .image-grup {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+
+.conteiner-principal .image-grup .dogcat {
+    position: absolute;
+    right: 0;
+    width: 450px;
+    margin-right: 20%;
+    top: 0;
+    margin-top: 8%;
+    z-index: 1;
+}
+
+
+.image-grup .circulo {
+    position: absolute;
+    right: 0;
+    margin-right: 18%;
+    top: 0;
+    margin-top: 25%;
+    width: 550px;
+    height: 300px;
+    background-color: var(--cor-fundoyellow);
+    border-radius: 50%; 
+}
+
+
+.image-grup .bolinha {
+    position: absolute;
+    right: 0;
+    margin-right: 15%;
+    width: 120px;
+    top: 0;
+    margin-top: 10%;
+}
+
+
+.image-grup .ossinho {
+    position: absolute;
+    right: 0;
+    margin-right: 45%;
+    width: 150px;
+    top: 0;
+    margin-top: 25%;
+    transform: rotate(-45deg);
 }
