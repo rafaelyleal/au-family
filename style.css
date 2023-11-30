@@ -170,3 +170,59 @@ header nav a {
     margin-top: 25%;
     transform: rotate(-45deg);
 }
+
+
+.conteiner-principal .cacho {
+    position: absolute;
+    width: 60px;
+    left: 0;
+    margin-left: 12%;
+    margin-top: 13%;
+}
+
+
+.conteiner-principal .pata {
+    position: absolute;
+    width: 45px;
+    left: 0;
+    margin-left: 35%;
+    margin-top: 12%;
+    transform: rotate(-35deg);
+    animation: tchau 0.5s alternate linear infinite;
+}
+
+
+.conteiner-principal .miau {
+    position: absolute;
+    width: 85px;
+    left: 0;
+    margin-left: 23%;
+    margin-top: 18%;
+    transform: rotate(-35deg);
+    animation: pic 2s infinite;
+}
+
+
+.conteiner-principal .presunto {
+    position: absolute;
+    width: 85px;
+    left: 0;
+    margin-left: 37%;
+    margin-top: 17%;
+    transform: rotate(15deg);
+}
+
+
+@keyframes tchau {
+    from {transform: rotate(-35deg);}
+    to {transform: rotate(5deg);}
+}
+
+
+@keyframes pic {
+    0% {width: 85px;}
+    25% {width: 90px;}
+    50% {width: 85px;}
+    75% {width: 90px;}
+    100% {width: 85px;}
+}
