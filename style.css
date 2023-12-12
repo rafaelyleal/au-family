@@ -281,113 +281,106 @@ header nav .btnlogin:hover {
 }
 
 
-@media screen and (max-width: 600px) {
-    
-header {
-    position: fixed;
-    top: 0; 
-    left: -100%;
-    width: 0;
+.segunda-parte {
+    width: 100%;
     height: 100vh;
-    display: block;
-    z-index: 2;
-    font-size: 30px;
-    background-color: var(--cor-principal);
-    overflow: hidden;
-    transition: 0.5s;
-}
-
-
-.bi-list {
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 10px;
-    display: block;
-    z-index: 111;
-}
-
-
-
-header nav {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 40%;
-    
+    font-size: 30px;
+    background-color: var(--cor-principal);
 }
 
 
-header nav .abrigo {
+.segunda-parte h1 {
+    text-align: left;
+    font-size: 70px;
+    font-weight: 400;
     position: absolute;
-    width: 80px;
-    left: 0;
+    width: 45%;
+    right: 0;
+    margin-right: 10%;
+    line-height: 80px;
+    color: black;
     top: 0;
-    margin-left: 5%;
-    
+    margin-top: 60%; 
 }
 
 
-header nav a {
-    color: black;
-    text-decoration: none;
+.segunda-parte p {
+    text-align: left;
     font-size: 20px;
-    transition: 0.5s ease-in-out;
+    position: absolute;
+    width: 30%;
+    right: 0;
+    margin-right: 25%;
+    color: black;
+    top: 0;
+    margin-top: 80%;
     font-family: var(--texto-paragrafo);
-    margin-left: 15%;
+    font-weight: 500;
 }
 
 
-header nav .bi-x-lg {
+.segunda-parte .fundo-imagem .medica {
     position: absolute;
-    right: 0;
+    left: 0;
+    width: 450px;
+    clip-path: circle(50%);
     top: 0;
-    margin-right: 5%;
-    margin-top: 20px;
-    display: block;
+    margin-top: 18%;
+    z-index: 1;
+    margin-left: -8%;
     
 }
 
 
-header nav a:hover{
-    color: var(--cor-botaored);    
-}
-
-header nav .fundodoicone {
+.fundo-imagem {
     position: absolute;
+    width: 400px;
+    height: 520px;
+    background-color: var(--cor-ternaria);
+    border-radius: 45%;
     left: 0;
+    margin-left: 10%;
     top: 0;
-    margin-left: 25%;
-    margin-top: 5%;
-    background-color: rgb(214, 209, 209);
-    width: 40px;
-    border-radius: 50%;
-    padding: 10px;
+    margin-top: 60%;
+   
 }
 
 
-header nav .btnlogin {
+.segunda-parte .btn-comprar {
     position: absolute;
     right: 0;
-    top: 0;
-    margin-right: 35%;
-    margin-top: 100%;
-    background-color: black;
-    color: white;
-    padding: 10px 30px;
-    border-radius: 50px;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-header nav .btnlogin:hover {
-    background-color: var(--cor-fundoyellow);
+    margin-right: 45%;
+    margin-top: 40%;
+    border: 1px solid black;
     color: black;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    
 }
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @keyframes tchau {
